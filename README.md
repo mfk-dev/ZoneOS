@@ -13,7 +13,7 @@
 - 3. Subdomain Scanner     ( ** Not Available For Now ** )                                                                                                                                                                     
 - 4. Ping                  ( ** Not Available For Now ** )                                                                                                                                                                    
 - 5. Website Information   ( ** Not Available For Now ** )                                                                                                                                                                     
-- 6. Hash Calculator       ( ** Available ** )                                                                                                                                                                                 
+- 6. Hash Generator       ( ** Available ** )                                                                                                                                                                                 
 - 7. Password Generator    ( ** Available ** )
 
 ## And?
