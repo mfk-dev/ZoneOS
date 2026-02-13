@@ -31,7 +31,6 @@ def main_menu():
         selection = input("Choose an option: ").lower()
 
         if selection == '1':
-            print("\n--- DNS Lookup Module Has Been Choosed! ---\n")
             dns_lookup()
         elif selection == '2':
             print("\n--- Port Scanner Module Is Coming Soon... ---\n")
@@ -42,13 +41,9 @@ def main_menu():
         elif selection == '5':
             print("\n--- Website Information Module Is Coming Soon... ---\n")
         elif selection == '6':
-            print("\n--- Hash Generator Option Has Been Choosed! ---\n")
             hash_generator()
         elif selection == '7':
-            print("\n--- Password Generation Option Has Been Choosed! ---\n")
             generate_password()
-        elif selection == '8':
-            print("\n--- System Information Module Is Coming Soon... ---\n")
         elif selection == 'exit' or selection == 'q':
             console.print("[bold red]Exiting from the program... See ya![/bold red]")
             break
@@ -81,7 +76,11 @@ def dns_lookup():
         except Exception as e:
             continue
 
-        input("\nPress Enter to continue...")
+        input("\nEnter to see te next record...")
+
+    console.print("[yellow1]DNS Lookup Completed![/yellow1]")
+    input("Press Enter to return to the main menu...")
+
 
 # Password Generator Function
 def generate_password():
@@ -123,6 +122,7 @@ def hash_generator():
     console.print(f"\n[bold cyan]MD5   :[/bold cyan] {md5_hash}")
     console.print(f"[bold cyan]SHA-1 :[/bold cyan] {sha1_hash}")
     console.print(f"[bold cyan]SHA-256:[/bold cyan] {sha256_hash}\n")
+    console.print(f"[red]Notification: MD5 and SHA-1 are not recommended for security purposes.[/red]")
 
 if __name__ == "__main__":
     title()
