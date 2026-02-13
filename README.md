@@ -3,10 +3,11 @@
 # This Is ZoneOS
 
 ## What is ZoneOS?
-- ZoneOS is an very simple, not finished yet All-In-One tool.
+- ZoneOS is a simple CLI-based all-in-one utility tool built with Python.
 - The name ZoneOS is just for fun, it isnt an OS obviously.
+- This is my first project and it is still under development.
 
-## What does it have?
+## What can it do?
 ** For Now **
 - 1. DNS Lookup            ( ** Available ** )                                                                                                                                                                                 
 - 2. Port Scanner          ( ** Not Available For Now ** )                                                                                                                                                                     
@@ -23,7 +24,10 @@
 - ```pip install -r requirements.txt```
 - ```python zoneos.py```
 
-## And?
+## Important Notes
+
+- This project is created for learning purposes.
+- MD5 and SHA-1 are not recommended for security purposes.
 - It is my first ever project, especially with python, excuse me if there is some errors.
 - It is also an simple project because it is my first.
 - I hope you like it, your suggestions are always valuable, thank you!
