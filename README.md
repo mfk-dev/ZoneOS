@@ -16,6 +16,14 @@
 - 6. Hash Generator       ( ** Available ** )                                                                                                                                                                                 
 - 7. Password Generator    ( ** Available ** )
 
+## Requirements
+- In order to run the zoneos.py, you should download these libraries:
+- rich
+- dnspython
+- To download them, enter these commands on a terminal:
+- pip install rich
+- pip install dnspython
+
 ## And?
 - It is my first ever project, especially with python, excuse me if there is some errors.
 - It is also an simple project because it is my first.
