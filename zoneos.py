@@ -26,7 +26,7 @@ def title():
 # Main Menu Function
 def main_menu():
     while True:
-        console.print(Panel("[bold cyan]Welcome To ZoneOS![/bold cyan]\n1. DNS Lookup[green]            ( ** Available ** )[/green]\n2. Port Scanner[bold red]          ( ** Not Available For Now ** )[/bold red]\n3. Subdomain Scanner[bold red]     ( ** Not Available For Now ** )[/bold red] \n4. Ping[bold red]                  ( ** Not Available For Now ** )[/bold red]\n5. Website Information[bold red]   ( ** Not Available For Now ** )[/bold red]\n6. Hash Calculator[green]       ( ** Available ** )[/green]\n7. Password Generator[green]    ( ** Available ** )[/green]\nq/exit: Exit", title="Main Menu"))
+        console.print(Panel("[bold cyan]Welcome To ZoneOS![/bold cyan]\n1. DNS Lookup[green]            ( ** Available ** )[/green]\n2. Port Scanner[bold red]          ( ** Not Available For Now ** )[/bold red]\n3. Subdomain Scanner[bold red]     ( ** Not Available For Now ** )[/bold red] \n4. Ping[bold red]                  ( ** Not Available For Now ** )[/bold red]\n5. Website Information[bold red]   ( ** Not Available For Now ** )[/bold red]\n6. Hash Generator[green]        ( ** Available ** )[/green]\n7. Password Generator[green]    ( ** Available ** )[/green]\nq/exit: Exit", title="Main Menu"))
         
         selection = input("Choose an option: ").lower()
 
@@ -42,8 +42,8 @@ def main_menu():
         elif selection == '5':
             print("\n--- Website Information Module Is Coming Soon... ---\n")
         elif selection == '6':
-            print("\n--- Hash Calculator Option Has Been Choosed! ---\n")
-            hash_calculator()
+            print("\n--- Hash Generator Option Has Been Choosed! ---\n")
+            hash_generator()
         elif selection == '7':
             print("\n--- Password Generation Option Has Been Choosed! ---\n")
             generate_password()
@@ -103,8 +103,8 @@ def generate_password():
     except ValueError:
         console.print("[bold red]Error: Please enter a valid number![/bold red]")
 
-# Hash Calculator Function
-def hash_calculator():
+# Hash Generator Function
+def hash_generator():
     clear()
     console.print("\n[bold green]--- Hash Calculator ---[/bold green]")
     text = input("Enter the text to hash: ")
