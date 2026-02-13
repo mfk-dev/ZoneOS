@@ -18,14 +18,10 @@
 
 ## Requirements
 - In order to run the zoneos.py, you should follow these steps:
-- Enter:
-- ```git clone https://github.com/mfk-dev/ZoneOS.git```
-- Then, enter:
-- ```cd ZoneOS```
-- Then, enter:
+- ```git clone <repo-link>```
+- ```cd zoneos```
 - ```pip install -r requirements.txt```
-- And finally, enter:
-- ```python3 zoneos.py```
+- ```python zoneos.py```
 
 ## And?
 - It is my first ever project, especially with python, excuse me if there is some errors.
